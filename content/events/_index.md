@@ -9,5 +9,7 @@ view: card
 # Optional cover image (relative to `assets/media/` folder).
 image:
   caption: ''
-  filename: ''
+  filename: background.jpg
+  image_size: cover
+  image_position: center
 ---
