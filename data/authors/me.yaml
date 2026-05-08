@@ -47,8 +47,8 @@ interests:
 education:
   - degree: PhD (Physics)
     institution: Ōtākou Whakaihu Waka | University of Otago, Te Tari Hū-o-te-Kōhao Department of Physics  and Taihoro Nukurangi | The National Institute of Water and Atmospheric Research, Te Whanganui-a-Tara | Wellington
-    #start: 2015-09-01
-    #end: 2019-06-30
+    start: 2016-02-01
+    end: 2020-02-28
     summary: |
       Thesis in Ice-Ocean Boundary Layers
 #    button:
@@ -57,12 +57,12 @@ education:
 #      icon: hero/arrow-down-tray
   - degree: MSc in Hydrometeorology (with Distinction)
     institution: Lomonosov Moscow State University, Department of Oceanography, Faculty of Geography
-    #start: 2013-09-01
-    #end: 2015-05-31
+    start: 2013-09-01
+    end: 2015-05-31
   - degree: BSc in Hydrometeorology (with Distinction)
     institution: Lomonosov Moscow State University, Department of Oceanography, Faculty of Geography 
-    #start: 2009-09-01
-    #end: 2013-05-31
+    start: 2009-09-01
+    end: 2013-05-31
 
 experience:
   - role: Postdoctoral Researcher
@@ -74,10 +74,13 @@ experience:
    #   text: View portfolio
    #   url: /
    #   icon: hero/arrow-down-tray
+  - role: Adjunct Postdoctoral Researcher
+    org: Te Puna Pātiotio | Antarctic Research Centre, Te Herenga-Waka | Victoria University of Wellington , Te Whanganui a Tara | Wellington,   Aotearoa | New Zealand
+    start: February 2020
   - role: Postdoctoral Researcher
     org: Taihoro Nukurangi | The National Institute of Water and Atmospheric Research 
-    start: 2020-02-01
-    end: 2023-06-30
+    start: February 2020
+    end: June 2023
   #  summary: |
   #    Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
 
