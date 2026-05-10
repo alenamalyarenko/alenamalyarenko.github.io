@@ -25,7 +25,7 @@ sections:
       avatar:
         size: "medium"
         shape: "circle"
-     
+  - block: "collection"   
     content:
       title: "My Research"
       subtitle: ""
