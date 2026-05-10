@@ -1,7 +1,7 @@
 ---
 title: Antarctic Science Platform Phase Two - Tiaki MoanaAnt
 date: 2025-07-01
-draft: true
+draft: false
 summary: What are the drivers and potential implications of unprecedented,
   climate-driven change in the Ross Sea and Southern Ocean?
 links:
