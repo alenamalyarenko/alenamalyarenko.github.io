@@ -7,7 +7,7 @@
 hugoblox:
   schema: "2.0"
 
-  favicon: "media/favicon.png"
+  #favicon: "media/favicon.png"
 
   # ────────────────────────────────────────────────────────────────────────────
   # IDENTITY
