@@ -1,9 +1,6 @@
 ---
 title: University of Canterbury School of Physical and Chemical Sciences Seminar "The meltwater in the Ross Sea: where did it come from, where will it go?"
 date: 2024-02-07
-#links:
-#  - type: site
-#    url: https://www.antarcticscienceplatform.org.nz/https://www.nesi.org.nz/event/2024/04/webinar-enhancing-code-reusability-using-containers-port-atmosphere-ocean-coupled
 tags:
   - Antarctica
   - Ross Sea
