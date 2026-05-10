@@ -110,9 +110,14 @@ experience:
 #    level: 4
 #    label: Fluent
 
-#awards:
-#  - title: Best Paper Award
-#    awarder: NeurIPS
-#    date: "2022-12-01"
-#    summary: Awarded for groundbreaking work on efficient training of large models.
-#    icon: hero/trophy
+awards:
+  - title: Research Scholarship
+    awarder: New Zealand Antarctic Research Institute (NZARI)
+    date: "2016"
+    summary: $20,000 plus logistics support from Antarctica New Zealand
+    icon: hero/trophy
+  - title: Doctoral Scholarship
+    awarder: University of Otago
+    date: "2016"
+    summary: course costs plus $25,000 pa for three years
+    icon: hero/trophy    

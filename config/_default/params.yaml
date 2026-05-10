@@ -7,6 +7,8 @@
 hugoblox:
   schema: "2.0"
 
+  favicon: "media/favicon.png"
+
   # ────────────────────────────────────────────────────────────────────────────
   # IDENTITY
   # Site-level branding (for people/profiles, use the author system in content/authors/)
@@ -34,7 +36,7 @@ hugoblox:
     # Mode: 'light', 'dark', or 'system' (follows OS preference)
     mode: light
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
-    pack: solar
+    pack: minimal
     # Optional: Override theme pack colors
     colors:
       primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
@@ -88,7 +90,7 @@ hugoblox:
     align: center # left | center | right
     # Feature toggles
     search: true
-    theme_toggle: true
+    theme_toggle: false
     theme_picker: false
     language_switcher: false
     # Call-to-action button
