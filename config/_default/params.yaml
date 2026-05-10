@@ -21,8 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox
-      Kit. Easily create your personal academic website."
+    description: "The highly-customizable Hugo Academic theme powered by HugoBlox Kit. Easily create your personal academic website."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
@@ -105,7 +104,7 @@ hugoblox:
   footer:
     # Footer style variant
     style: minimal # minimal | columns | centered
-    language_switcher: true
+    language_switcher: false
     # Custom footer text (HTML supported)
     text: ""
 
@@ -128,7 +127,6 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   seo:
     # Browser tab title override (defaults to identity.name if not set)
-    title: ""
     # For local_business identity type only
     location:
       address:
@@ -148,6 +146,7 @@ hugoblox:
       disallow: []
       note: "Guidance for AI crawlers - customize to match your public content."
       contact: ""
+    title: Alena Malyarenko | University of Canterbury
 
   # ────────────────────────────────────────────────────────────────────────────
   # CONTENT
@@ -174,7 +173,8 @@ hugoblox:
   search:
     enable: true
     # Trending/suggested search terms
-    suggestions: []
+    suggestions:
+      - Antarctica
     # Quick action shortcuts in search modal
     quick_actions: []
 
