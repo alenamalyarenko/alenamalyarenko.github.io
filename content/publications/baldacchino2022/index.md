@@ -1,27 +1,30 @@
 ---
-title: "A Wedge Mechanism for Summer Surface Water Inflow Into the Ross Ice Shelf Cavity"
+title: "Sensitivity of the Ross Ice Shelf to environmental andglaciological controls"
 authors:
+ - Baldacchino, Francesca.
+ - Morlighem, Mathieu
+ - Golledge, Nicholas R.
+ - Horgan, Huw
  - me
- - Robinson, N. J.
- - Williams, M. J. M.
- - Langhorne, P. J.
 
 #author_notes:
 #- "Equal contribution"
 #- "Equal contribution"
-date: "2019-01-01T00:00:00Z"
-year: 2019
+date: "2022-01-01T00:00:00Z"
+year: 2022
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 profile: false
+draft: false
 show_date: false
+
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Journal of Geophysical Research: Oceans"
+publication: "The Cryosphere"
 publication_short: ""
 
 #abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
@@ -31,7 +34,7 @@ publication_short: ""
 
 tags:
 - Antarctica
-featured: true
+featured: false
 
 #hugoblox:
 #  ids:
@@ -39,7 +42,7 @@ featured: true
 
 links:
   - name: DOI
-    url: https://doi.org/10.1029/2018jc014594
+    url: https://doi.org/10.5194/tc-16-3723-2022
 #    icon_pack: ai
 #    icon: doi
 
@@ -62,17 +65,17 @@ links:
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  caption: 'Image credit: Malyarenko et al. (2019)'
-  focal_point: ""
-  preview_only: false
+#image:
+#  caption: 'Image credit: Golledge et al. (2025)'
+#  focal_point: ""
+#  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/projects/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-#projects: [asp]
+projects: [asp]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -81,5 +84,4 @@ image:
 #   Otherwise, set `slides: ""`.
 #slides: ""
 ---
-
-Ocean heat supply to ice shelves has a significant impact on the long‐term evolution of iceshelves. Intrusions of warm surface waters into the frontal region of the cavity, known as “Mode 3”circulation, are capable of melting the ice shelf base. However, ablation of the vertical walls of the ice shelffront has, to date, received little attention. Here we propose a mechanism for Mode 3 circulation that is aidedby ice shelf front ablation: Direct contact of warm Antarctic Surface Water with the ice wall generatesmeltwater that buoyantly ascends the vertical face and leads to formation of a “wedge” of fresher waterimmediately adjacent to the wall. This wedge, which thins with distance from the ice shelf front, allowsisopycnals to curve gently downward, creating an efficient conduit by which surface waters moved by otherforces such as tidal flow and eddies enter an ice shelf cavity with minimal mixing. Here we use new andexisting observational data from the Ross Sea and the Ross Ice Shelf cavity to demonstrate the existence ofthe wedge. Our analysis and a review of the literature suggest that the freshwater wedge structure is apervasive feature of the Western Ross Sea in summer and enhances other inflow mechanisms.
+The Ross Ice Shelf (RIS) is currently stable butrecent observations have indicated that basal melt rates be-neath the ice shelf are expected to increase. It is importantto know which areas of the RIS are more sensitive to en-hanced basal melting as well as other external forcings orinternal material properties of the ice to understand how cli-mate change will influence RIS mass balance. In this paper,we use automatic differentiation and the Ice Sheet and Sea-level System Model to quantify the sensitivity of the RIS tochanges in basal friction, ice rigidity, surface mass balance,and basal melting. Using volume above flotation (VAF) asour quantity of interest, we find that the RIS is most sensitiveto changes in basal friction and ice rigidity close to groundinglines and along shear margins of the Siple Coast Ice Streamsand Transantarctic Mountains Outlet Glaciers. The RIS sen-sitivity to surface mass balance is uniform over grounded ice,while the sensitivity to basal melting is more spatially vari-able. Changes in basal melting close to the grounding linesof the Siple Coast Ice Streams and Transantarctic Mountainsoutlet glaciers have a larger impact on the final VAF com-pared to elsewhere. Additionally, the pinning points and iceshelf shear margins are highly sensitive to changes in basalmelt. Our sensitivity maps allow areas of greatest future vul-nerability to be identified.

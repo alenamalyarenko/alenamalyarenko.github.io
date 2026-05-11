@@ -1,27 +1,34 @@
 ---
-title: "A Wedge Mechanism for Summer Surface Water Inflow Into the Ross Ice Shelf Cavity"
+title: "Modelling GNSS-observed seasonal velocity changes of the Ross Ice Shelf, Antarctica, using the Ice-sheet and Sea-level System Model (ISSM)"
 authors:
+ - Baldacchino, Francesca.
+ - Golledge, Nicholas R.
+ - Morlighem, Mathieu
+ - Horgan, Huw
+ - Alevropoulos-Borrill, Alanna
  - me
- - Robinson, N. J.
- - Williams, M. J. M.
- - Langhorne, P. J.
+ - Gossart, Alexandra
+ - Lowry, Daniel P.
+ - Haastrecht, Laurine van
 
 #author_notes:
 #- "Equal contribution"
 #- "Equal contribution"
-date: "2019-01-01T00:00:00Z"
-year: 2019
+date: "2024-01-01T00:00:00Z"
+year: 2024
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 profile: false
+draft: false
 show_date: false
+
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Journal of Geophysical Research: Oceans"
+publication: "The Cryosphere"
 publication_short: ""
 
 #abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
@@ -31,7 +38,7 @@ publication_short: ""
 
 tags:
 - Antarctica
-featured: true
+featured: false
 
 #hugoblox:
 #  ids:
@@ -39,7 +46,7 @@ featured: true
 
 links:
   - name: DOI
-    url: https://doi.org/10.1029/2018jc014594
+    url: https://doi.org/10.5194/tc-19-107-2025
 #    icon_pack: ai
 #    icon: doi
 
@@ -63,7 +70,7 @@ links:
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: Malyarenko et al. (2019)'
+  caption: 'Image credit: Baldacchino et al. (2024)'
   focal_point: ""
   preview_only: false
 
@@ -72,7 +79,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/projects/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-#projects: [asp]
+projects: [asp]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -81,5 +88,4 @@ image:
 #   Otherwise, set `slides: ""`.
 #slides: ""
 ---
-
-Ocean heat supply to ice shelves has a significant impact on the long‐term evolution of iceshelves. Intrusions of warm surface waters into the frontal region of the cavity, known as “Mode 3”circulation, are capable of melting the ice shelf base. However, ablation of the vertical walls of the ice shelffront has, to date, received little attention. Here we propose a mechanism for Mode 3 circulation that is aidedby ice shelf front ablation: Direct contact of warm Antarctic Surface Water with the ice wall generatesmeltwater that buoyantly ascends the vertical face and leads to formation of a “wedge” of fresher waterimmediately adjacent to the wall. This wedge, which thins with distance from the ice shelf front, allowsisopycnals to curve gently downward, creating an efficient conduit by which surface waters moved by otherforces such as tidal flow and eddies enter an ice shelf cavity with minimal mixing. Here we use new andexisting observational data from the Ross Sea and the Ross Ice Shelf cavity to demonstrate the existence ofthe wedge. Our analysis and a review of the literature suggest that the freshwater wedge structure is apervasive feature of the Western Ross Sea in summer and enhances other inflow mechanisms.
+The flow speeds of floating ice shelves aroundthe Antarctic Ice Sheet exhibit clear intra-annual variabil-ity. However, the drivers of this variability remain poorly un-derstood. Here, we present three new velocity datasets fromGlobal Navigation Satellite System (GNSS) stations on theRoss Ice Shelf collected between early 2020 and late 2021and show that they have two distinct peaks observed in aus-tral summer and austral winter. These measurements do notappear to be consistent with the yearly cycle of sea surfaceheight, which has previously been identified as a possibledriver. We investigate the potential role of basal melt variabil-ity in ice flow speed and use the Ross Ice Shelf as a test bed.First we identify the regions where changes in melt wouldhave the largest influence on ice speed at our GNSS sitesusing automatic differentiation. We then apply idealized si-nusoidal perturbations to modelled basal melt rates at thesespecific locations to identify what magnitude of variability isneeded to match the GNSS-observed changes in ice speed.We show that, while very local perturbations in basal meltcan have a significant impact on ice flow speed, the amplitudeof the perturbation required to match observations is signif-icantly higher than expected, which may indicate that theseperturbations are not realistic. We suggest that a combinationof external forcings and internal mechanics may be needed toreproduce the observed intra-annual velocity variation at allthe GNSS sites.

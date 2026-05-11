@@ -1,0 +1,14 @@
+{{/*
+layouts/partials/components/see_all.html
+Reusable partial to show a 'See all' button linking to a section root.
+Usage: pass dict with "url" (required) and optional "label" (defaults to "See all").
+*/}}
+
+{{ $url := .url | default "/" }}
+{{ $label := .label | default (i18n "see_all" | default "See all") }}
+
+<a href="{{ $url }}"
+   class="inline-block rounded bg-primary-600 px-4 py-2 mt-4 text-white hover:bg-primary-700 transition-colors"
+   aria-label="{{ $label }}">
+  {{ $label }}
+</a>

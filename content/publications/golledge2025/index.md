@@ -16,9 +16,12 @@ authors:
 #- "Equal contribution"
 #- "Equal contribution"
 date: "2025-01-01T00:00:00Z"
+year: 2025
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 profile: false
+draft: false
+show_date: false
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -35,7 +38,7 @@ publication_short: ""
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Source Themes
+- Antarctica
 featured: false
 
 #hugoblox:
@@ -68,7 +71,7 @@ links:
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: Fernandez et al. (2025)'
+  caption: 'Image credit: Golledge et al. (2025)'
   focal_point: ""
   preview_only: false
 
@@ -86,6 +89,4 @@ projects: [asp]
 #   Otherwise, set `slides: ""`.
 #slides: ""
 ---
-
-
-You can find more details on the [Antarctic Science Platform website](https://www.antarcticscienceplatform.org.nz/).
+Coastal polynyas describe regions of persistent open water withinthe sea-ice pack. In this Review, we outline the critical importanceof Antarctic coastal polynyas in the Earth system (including for theatmosphere, sea-ice, ocean and biosphere) and outline their past,present and future changes. Strong offshore winds are the primaryforce opening coastal polynyas, varying on synoptic timescales toinfluence polynya existence and size. The exposed ocean surfaceventilates heat to the atmosphere, allowing sea surface cooling andfrazil ice formation. Frazil ice increases the salinity of surface waters,ultimately sinking as dense shelf water that drives the southern limb ofthe global ocean overturning circulation. Light and nutrient availabilityin coastal polynyas also encourages high primary productivity,making them critical aspects of the Antarctic marine food web. Coastalpolynya strength and location varies through time, most notably atglacial–interglacial timescales owing to changes in continental shelfavailable for polynya formation. Predicting the future evolutionof Antarctic coastal polynyas is challenged by inadequate modelresolution and poorly constrained processes and behaviours, but thereare indications that activity will decline with warming. A coordinatedand expanded campaign of in situ measurements, as well as newsatellite-based observations that use intelligent algorithms, wouldimprove coupled atmosphere–sea-ice–ocean models and, thereby,enhance knowledge of Antarctic coastal polynyas.

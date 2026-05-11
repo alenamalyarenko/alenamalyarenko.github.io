@@ -10,6 +10,7 @@ authors:
 #- "Equal contribution"
 #- "Equal contribution"
 date: "2019-01-01T00:00:00Z"
+year: 2019
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 profile: false
@@ -29,8 +30,11 @@ publication_short: ""
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Source Themes
+- Antarctica
 featured: false
+
+show_date: false
+show_profile: false
 
 #hugoblox:
 #  ids:
@@ -80,6 +84,6 @@ projects: [asp]
 #   Otherwise, set `slides: ""`.
 #slides: ""
 ---
-
+Key concepts governing turbulent exchange in the boundary layer that develops when there is relative motion between floating ice and the underlying ocean are presented. The under-ice boundary layer differs from surface boundary layers in the open ocean in that its upper boundary is solid rather than gaseous, so the impact of short period surface gravity waves is relatively small. Scaling techniques relating turbulent momentum and scalar fluxes to mean quantity gradients follow from extensive measurements made from drifting pack ice forced by wind and ocean currents, and from fast (stationary) ice overlying tidal flow.
 
 You can find more details on the [Antarctic Science Platform website](https://www.antarcticscienceplatform.org.nz/).

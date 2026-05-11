@@ -13,9 +13,11 @@ authors:
 #- "Equal contribution"
 #- "Equal contribution"
 date: "2020-01-01T00:00:00Z"
+year: 2020
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 profile: false
+show_date: false
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -33,7 +35,7 @@ publication_short: ""
 
 tags:
 - Antarctica
-featured: true
+featured: false
 
 #hugoblox:
 #  ids:
@@ -74,7 +76,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/projects/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: [asp]
+#projects: [asp]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -84,5 +86,4 @@ projects: [asp]
 #slides: ""
 ---
 
-
-You can find more details on the [Antarctic Science Platform website](https://www.antarcticscienceplatform.org.nz/).
+Thermodynamic ablation of ice in contact with the ocean is an essential element of ice sheet and oceaninteractions but is challenging to model and quantify. Building on earlier observations of sea ice ablation, avariety of recent theoretical, experimental and observational studies have considered ice ablation in contrastinggeometries, from vertical to near-horizontal ice faces, and reveal different scaling behaviour for predictedablation rates in different dynamical regimes. However, uncertainties remain about when the contrastingresults should be applied, as existing model parameterisations do not capture all relevant regimes of ice–oceanablation. To progress towards improved models of ice–ocean interaction, we synthesise current understandinginto a classification of ablation types. We examine the effect of the classification on the parameterisation ofturbulent fluxes from the ocean towards the ice, and identify the dominant processes next to ice interfaces ofdifferent orientation. Four ablation types are defined: melting and dissolving based on ocean temperatures, andshear-controlled and buoyancy-controlled regimes based on the dynamics of the near-ice molecular sublayer.We describe existing observational and modelling studies of sea ice, ice shelves, and glacier termini, as wellas laboratory studies, to show how they fit into this classification. Two sets of observations from the Rossand Ronne Ice Shelf cavities suggest that both the buoyancy-controlled and shear-controlled regimes maybe relevant under different oceanographic conditions. Overall, buoyancy-controlled dynamics are more likelywhen the molecular sublayer has lower Reynolds number, and shear for higher Reynolds number, althoughthe observations suggest some variability about this trend.

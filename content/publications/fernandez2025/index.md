@@ -37,9 +37,11 @@ authors:
 #- "Equal contribution"
 #- "Equal contribution"
 date: "2025-01-01T00:00:00Z"
+year: 2025
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 profile: false
+show_date: false
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -56,7 +58,7 @@ publication_short: ""
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Source Themes
+- Antarctica
 featured: false
 
 #hugoblox:

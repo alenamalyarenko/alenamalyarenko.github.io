@@ -33,7 +33,7 @@ authors:
  - Neme, Julia
  - Nikurashin, Maxim
  - Patel, Ramkrushnbhai S.
- - Peng, Jen Ping
+ - Peng, Jen-Ping
  - Rayson, Matthew
  - Rosevear, Madelaine G.
  - Sohail, Taimoor
@@ -44,9 +44,12 @@ authors:
 #- "Equal contribution"
 #- "Equal contribution"
 date: "2024-01-01T00:00:00Z"
+year: 2024
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 profile: false
+show_date: false
+show_profile: false
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -63,7 +66,7 @@ publication_short: ""
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Source Themes
+- Antarctica
 featured: false
 
 #hugoblox:
@@ -114,6 +117,4 @@ projects: [asp]
 #   Otherwise, set `slides: ""`.
 #slides: ""
 ---
-
-
-You can find more details on the [Antarctic Science Platform website](https://www.antarcticscienceplatform.org.nz/).
+A holistic review is given of the Southern Ocean dynamic system, in the context of the crucial role it plays in the global climate and the profound changes it is experiencing. The review focuses on connections between different components of the Southern Ocean dynamic system, drawing together contemporary perspectives from different research communities, with the objective of closing loops in our understanding of the complex network of feedbacks in the overall system. The review is targeted at researchers in Southern Ocean physical science with the ambition of broadening their knowledge beyond their specific field, and aims at facilitating better-informed interdisciplinary collaborations. For the purposes of this review, the Southern Ocean dynamic system is divided into four main components: large-scale circulation; cryosphere; turbulence; and gravity waves. Overviews are given of the key dynamical phenomena for each component, before describing the linkages between the components. The reviews are complemented by an overview of observed Southern Ocean trends and future climate projections. Priority research areas are identified to close remaining loops in our understanding of the Southern Ocean system.

@@ -7,6 +7,9 @@ type: landing
 sections:
   - block: collection
     content:
+      count: 10
+      show_more_link: true
+      show_more_label: "Older Projects"
       title: Selected Projects
       text: Here are a selection of projects that I have worked on.
       filters:
@@ -15,7 +18,7 @@ sections:
     design:
       view: article-grid
       fill_image: false
-      columns: 2
+      columns: 3
       show_date: false
       show_read_time: false
       show_read_more: false

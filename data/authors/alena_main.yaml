@@ -1,5 +1,5 @@
 schema: hugoblox/author/v1
-slug: me
+slug: alena_main
 is_owner: true
 name:
   display: Alena Malyrenko
@@ -45,24 +45,24 @@ interests:
   - Integtation of PINN and CFD
 
 education:
-  - degree: PhD (Physics)
-    institution: Ōtākou Whakaihu Waka | University of Otago, Te Tari Hū-o-te-Kōhao Department of Physics  and Taihoro Nukurangi | The National Institute of Water and Atmospheric Research, Te Whanganui-a-Tara | Wellington
-    start: 2016-02-01
-    end: 2020-02-28
+  - degree: PhD 
+    institution: Ōtākou Whakaihu Waka | University of Otago
+    #start: 2016-02-01
+    #end: 2020-02-28
     summary: |
-      Thesis "Ice-Ocean Boundary Layers"
+      Thesis in Ice-Ocean Boundary Layers
 #    button:
 #      text: Download dissertation
 #      url: /resume.pdf
 #      icon: hero/arrow-down-tray
-  - degree: MSc in Hydrometeorology (with Distinction)
-    institution: Lomonosov Moscow State University, Department of Oceanography, Faculty of Geography
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BSc in Hydrometeorology (with Distinction)
-    institution: Lomonosov Moscow State University, Department of Oceanography, Faculty of Geography 
-    start: 2009-09-01
-    end: 2013-05-31
+  - degree: MSc in Hydrometeorology
+    institution: Lomonosov Moscow State University
+    #start: 2013-09-01
+    #end: 2015-05-31
+  - degree: BSc in Hydrometeorology
+    institution: Lomonosov Moscow State University
+    #start: 2009-09-01
+    #end: 2013-05-31
 
 experience:
   - role: Postdoctoral Researcher

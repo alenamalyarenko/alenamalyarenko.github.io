@@ -8,10 +8,11 @@ authors:
 #- "Equal contribution"
 #- "Equal contribution"
 date: "2019-01-01T00:00:00Z"
+year: 2019
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 profile: false
-
+show_date: false
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
@@ -27,7 +28,7 @@ publication_short: ""
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Source Themes
+- Antarctica
 featured: false
 
 #hugoblox:
@@ -69,7 +70,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/projects/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: [asp]
+#projects: [asp]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -79,5 +80,4 @@ projects: [asp]
 #slides: ""
 ---
 
-
-You can find more details on the [Antarctic Science Platform website](https://www.antarcticscienceplatform.org.nz/).
+Key factors that influence variability of the ice-ocean boundary layer are presented. Heat and salt balance at the ice-ocean interface, as well as interaction with the atmosphere, determine changes in the buoyancy flux in the boundary layer. Ice-ocean ablation and freezing are described for sea ice and ice shelves. Spatial differences in the boundary layer under sea ice are also considered, describing typical features of the Arctic Ocean and the Southern Ocean: winter and summer leads, melt ponds, platelet sea ice.
