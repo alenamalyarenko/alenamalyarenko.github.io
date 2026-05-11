@@ -15,6 +15,7 @@ authors:
 #  - 'Equal contribution'
 
 date: '2026-05-01T00:00:00Z'
+featured: false
 
 # Schedule page publish date (NOT publication's date).
 #publishDate: '2017-01-01T00:00:00Z'
@@ -34,6 +35,7 @@ publication_short:
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
+  - Fire
   - Weather-FDS
 
 # Display this page in the Featured widget?

@@ -1,6 +1,6 @@
 ---
 title: Antarctic Science Platform Phase One
-date: 2018-07-01
+date: 2018
 links:
   - type: site
     url: https://www.antarcticscienceplatform.org.nz/research/national-modelling-hub
@@ -9,6 +9,8 @@ tags:
   - Ross Sea
   - P-SKRIPS
 featured: false  
+profile: false
+show_date: false
 ---
 
 This major New Zealand Government-funded research project supports a range of physical and biological science to understand Antarctica's impact on the global earth system and New Zealand, and how this might change in a warming world.

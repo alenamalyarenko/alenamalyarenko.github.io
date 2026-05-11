@@ -1,6 +1,6 @@
 ---
 title: "Grounding zone estuaries: How can ocean stratification, baroclinicity, and tides beneath 500 m of Antarctic ice influence global sea level rise?"
-date: 2024-09-01
+date: 2024
 draft: false
 #summary: "What problem does this solve? Keep it to one or two sentences."
 
@@ -11,6 +11,8 @@ draft: false
 tags:
   - Antarctica
   - P-SKRIPS
+profile: false  
+show_date: false
 ---
 ‘Grounding zones’ are where the Antarctic Ice Sheet leaves the land to float out over the ocean. There, the ice first encounters the ocean’s heat and melting is initiated. Therefore, processes within these zones can control Antarctica’s contribution to sea level. The first ever direct observations from grounding zones have challenged prevailing theories, revealing a strongly layered 
 estuarine-like system. Using new observations and numerical simulation this work will explore the various interactions between tidal forcing, ocean structure and topography permitted by estuarine layering, as well as implications for ice sheet dynamics – a critical component of the Earth system. 

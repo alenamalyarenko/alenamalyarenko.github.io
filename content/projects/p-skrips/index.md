@@ -15,6 +15,8 @@ tags:
   - P-SKRIPS
   - Ross Sea
 featured: false  
+profile: false
+show_date: false
 ---
 
 The P-SKRIPS (Polar-SKRIPS) model is a state-of-the-art, regional coupled framework specifically engineered for the Southern Ocean and Antarctic environments. It integrates the Polar Weather Research and Forecasting (PWRF) model with the MITgcm ocean and sea-ice model using the ESMF/NUOPC coupler.

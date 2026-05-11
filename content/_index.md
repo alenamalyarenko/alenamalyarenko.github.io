@@ -16,16 +16,23 @@ sections:
         education: ""
         interests: ""
     design:
-      css_class: "prose-xl max-w-none"
+      css_style: "flex-direction: column !important; align-items: center;"
       background:
         gradient_mesh:
           enable: true
       name:
         size: "md"
+        
       avatar:
         size: "medium"
         shape: "circle"
-  - block: "collection"   
+      spacing:
+        padding: ["100px", "0px", "0px", "100px"] # Adjust top padding to pull everything up    
+
+        
+
+#Research
+  - block: markdown
     content:
       title: "My Research"
       subtitle: ""
@@ -35,10 +42,9 @@ sections:
         Currently I am developing coupled weather-fire models using PALM and FDS frameworks improve wildfire behavior forecasting.
 
         Please reach out to collaborate 😃
-    design:
-      columns: "1"
-    ce: "section-e1c661f9"
-    As: "section-c0f2dc87"
+
+
+# Papers
   - block: "collection"
     content:
       title: "Featured Publications"
@@ -48,37 +54,34 @@ sections:
         featured_only: true
     design:
       view: "article-grid"
-      columns: 2
+      show_date: false
+      columns: 3
     ce: "section-papers"
     id: "papers"
     As: "section-9bc27a98"
-  - block: "resume-experience"
-    design:
-      date_format: "Jan 2006"
-      is_education_first: false
-    content:
-      text: "Academic and field leadership journey."
-    ce: "section-experience"
-    id: "experience"
-    As: "section-a3939caf"
-  - block: "team-showcase"
-    design:
-      align: "center"
-      show_role: true
-      max_columns: 3
-      show_social: true
-      show_organizations: true
-    content:
-      text: "Meet our current research group."
-      title: "Research Students"
-      sort_by: "name_family"
-      user_groups:
-        - "PhD Students"
-        - "Graduate Students"
-      sort_ascending: true
-    ce: "section-research-students"
-    id: "research-students"
-    As: "section-e5159410"
+
+
+#Students:
+#- block: "team-showcase"
+#    design:
+#      align: "center"
+#      show_role: true
+#      max_columns: 3
+#      show_social: true
+#      show_organizations: true
+#    content:
+#      text: "Meet our current research group."
+#      title: "Research Students"
+#      sort_by: "name_family"
+#      user_groups:
+#        - "PhD Students"
+#        - "Graduate Students"
+#      sort_ascending: true
+#    ce: "section-research-students"
+#    id: "research-students"
+#    As: "section-e5159410"
+
+
   - block: "cta-card"
     demo: true
     content:
