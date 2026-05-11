@@ -10,6 +10,7 @@ authors:
 #- "Equal contribution"
 #- "Equal contribution"
 date: "2019-01-01T00:00:00Z"
+year: 2019
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 profile: false

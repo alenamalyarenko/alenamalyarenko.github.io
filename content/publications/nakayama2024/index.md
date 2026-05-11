@@ -1,5 +1,5 @@
 ---
-title: "Evaluation of {MITgcm}-based ocean reanalyses for the Southern Ocean"
+title: "Evaluation of MITgcm-based ocean reanalyses for the Southern Ocean"
 authors:
  - Nakayama, Yoshihiro
  - me
@@ -9,7 +9,7 @@ authors:
  - Nie, Yafei
  - Fenty, Ian
  - Mazloff, Matthew
- - Köhl, Armin
+ - Kï¿½hl, Armin
  - Menemenlis, Dimitris
 
 

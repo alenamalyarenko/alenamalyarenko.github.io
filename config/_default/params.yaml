@@ -7,7 +7,7 @@
 hugoblox:
   schema: "2.0"
 
-  #favicon: "media/favicon.png"
+  favicon: "media/favicon.png"
 
   # ────────────────────────────────────────────────────────────────────────────
   # IDENTITY
@@ -22,7 +22,7 @@ hugoblox:
     type: person # person | organization | local_business
     # Short tagline displayed on your site
     tagline: ""
-    # Site meta description for search engines and social sharing
+    # Site meta description for search engines and social shari
     description: "Alena is an environmental scientist and researcher dedicated to bridging the gap between climate science and advanced data analytics."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
