@@ -1,5 +1,5 @@
 ---
-title: Antarctic Science Platform Phase Two - Tiaki MoanaAnt
+title: Antarctic Science Platform Phase Two - Tiaki Moana
 date: 2025-07-01
 draft: false
 summary: What are the drivers and potential implications of unprecedented,
