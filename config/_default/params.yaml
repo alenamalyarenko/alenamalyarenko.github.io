@@ -4,10 +4,12 @@
 # Tutorial: https://docs.hugoblox.com/tutorial/
 # Documentation: https://docs.hugoblox.com/
 # ══════════════════════════════════════════════════════════════════════════════
+
+favicon: "media/icon.svg"
 hugoblox:
   schema: "2.0"
 
-  favicon: "media/favicon.png"
+
 
   # ────────────────────────────────────────────────────────────────────────────
   # IDENTITY
