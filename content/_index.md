@@ -4,6 +4,10 @@ summary: ""
 date: "2022-10-24"
 type: "landing"
 sections:
+
+ 
+
+
   - block: "resume-biography-3"
     content:
       username: "alena_main"
@@ -16,18 +20,32 @@ sections:
         education: ""
         interests: ""
     design:
+      css_class: "wide-edu"
       css_style: "flex-direction: column !important; align-items: center;"
+      #background:
+      #  gradient_mesh:
+      #    enable: true
+     # text_color: 'white'  
+    # Full-width background image configuration
       background:
-        gradient_mesh:
-          enable: true
+        text_color_light: true 
+        image:
+          filename: backgrounds/ice.jpeg  # File path relative to assets/media/
+          filters:
+            brightness: 0.5  # Dims image to make white text more readable
+            opacity: 0.1
+          parallax: true     # Optional: subtle movement as you scroll
+          position: center   # Options: left, center, right
+      spacing:
+        padding: ['120px', '0', '120px', '0']
+    
       name:
         size: "md"
-        
       avatar:
         size: "medium"
         shape: "circle"
-      spacing:
-        padding: ["100px", "0px", "0px", "100px"] # Adjust top padding to pull everything up    
+
+     
 
         
 

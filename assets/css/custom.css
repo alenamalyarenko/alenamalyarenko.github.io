@@ -1,0 +1,9 @@
+/* Target the education cards in the resume-biography-3 block */
+.wide-edu .hb-resume-education-card {
+  flex-basis: 60% !important;      /* Increase basis width */
+  min-width: 500px;                /* Optional: Set a minimum width */
+  max-width: 700px;                /* Optional: Set a maximum width */
+}
+.wide-edu .flex.flex-wrap {
+  justify-content: center;         /* Optional: center cards if fewer than 2 */
+}

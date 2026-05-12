@@ -6,7 +6,7 @@ links:
   - type: site
     url: https://github.com/alenamalyarenko/Weather-FDS
 tags:
-  - Fire
+  - Wildfires
   - Weather-FIRE
   - Medel Development
 status: published

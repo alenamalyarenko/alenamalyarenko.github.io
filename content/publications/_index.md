@@ -2,7 +2,10 @@
 title: Publications
 cms_exclude: true
 # View.
-view: citation
+view: 
+ citation
+
+
 
 show_date: false
 # Optional header image (relative to `static/media/` folder).

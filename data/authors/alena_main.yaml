@@ -18,11 +18,18 @@ bio: |
  
 
 affiliations:
-  - name: Te Whare Wānanga o Waitaha | University of Canterbury # Te Kura Aronukurangi | School of Earth and Environment , Ōtautahi | Christchurch, Aotearoa | New Zealand
+  - name: Te Whare Wānanga o Waitaha |
     url: https://www.canterbury.ac.nz/
-#  - name: "Te Puna Pātiotio | Antarctic Research Centre <br> Te Herenga-Waka | Victoria University of Wellington , Te Whanganui a Tara | Wellington,   Aotearoa | New Zealand"
-  - name: Te Herenga-Waka | Victoria University of Wellington
+  - name: "University of Canterbury"  
+    url: https://www.canterbury.ac.nz/
+
+  - name: Te Herenga-Waka |  
     url: https://www.wgtn.ac.nz/antarctic
+  - name: Victoria University of Wellington  
+    url: https://www.wgtn.ac.nz/antarctic
+
+# Te Kura Aronukurangi | School of Earth and Environment , Ōtautahi | Christchurch, Aotearoa | New Zealand
+#  - name: "Te Puna Pātiotio | Antarctic Research Centre <br> Te Herenga-Waka | Victoria University of Wellington , Te Whanganui a Tara | Wellington,   Aotearoa | New Zealand"
 
 links:
   - icon: at-symbol
