@@ -1,5 +1,5 @@
 ---
-title: Antacrtic Sea-Ice Switch
+title: Antarctic Sea-Ice Switch
 date: 2025-01-01
 summary: The Antarctic Sea-Ice Switch research programme is exploring the
   changing dynamics of Antarctic sea ice.
