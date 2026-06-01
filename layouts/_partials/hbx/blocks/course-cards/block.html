@@ -1,0 +1,114 @@
+{{ $block := . }}
+{{ $cards := $block.wcBlock.content.cards }}
+{{ $design := $block.wcBlock.design }}
+
+{{ $columns := default 2 $design.columns }}
+{{ $cardSize := default "medium" $design.card_size }}
+{{ $cardCssClass := "" }}
+{{ if $design.card }}{{ if $design.card.css_class }}{{ $cardCssClass = $design.card.css_class }}{{ end }}{{ end }}
+{{ $textColor := default "auto" }}
+{{ if $design.card }}{{ $textColor = default "auto" $design.card.text_color}}{{ end }}
+{{ $overlayOpacity := default 0.15 }}
+{{ if $design.card }}{{ $overlayOpacity = default 0.15 $design.card.overlay_opacity}}{{ end }}
+
+{{ $startGradient := "" }}
+{{ $endGradient := "" }}
+{{ $gradientDirection := "" }}
+{{ if $design.background.gradient }}
+  {{ $startGradient = $design.background.gradient.start }}
+  {{ $endGradient = $design.background.gradient.end }}
+  {{ $gradientDirection = printf "deg-%v" $design.background.gradient.direction }}
+{{ end }}
+
+<div class="container mx-auto px-4 {{ if not $design }}bg-white dark:bg-gray-900 py-12{{ end }}">
+  {{ with $block.wcBlock.content.title }}
+    <h2 class="text-3xl font-bold text-center mb-8 {{ if $startGradient }}text-white{{ else if $design.background.gradient }}text-white{{ else }}text-gray-800 dark:text-white{{ end }}">{{ . }}</h2>
+  {{ end }}
+
+  <div class="grid grid-cols-1 md:grid-cols-{{ $columns }} gap-6">
+    {{ range $card := $cards }}
+
+      {{/* 1. Pick base text color for the card */}}
+      {{ $baseTextColor := "" }}
+      {{ if eq $textColor "light" }}
+        {{ $baseTextColor = "text-white" }}
+      {{ else if eq $textColor "dark" }}
+        {{ $baseTextColor = "text-gray-900" }}
+      {{ else if or (in $cardCssClass "glassmorphism-dark") (in $cardCssClass "glassmorphism-primary") (in $cardCssClass "glassmorphism-secondary") }}
+        {{ $baseTextColor = "text-white" }}
+      {{ else }}
+        {{ $baseTextColor = "text-gray-700 dark:text-gray-300" }}
+      {{ end }}
+
+      {{/* 2. Now set heading, label, and value colors... */}}
+      {{ $headingColor := "" }}
+      {{ $labelColor := "" }}
+      {{ $valueColor := "" }}
+
+      {{ if eq $baseTextColor "text-white" }}
+        {{ $headingColor = "text-white" }}
+        {{ $labelColor = "font-bold text-white" }}
+        {{ $valueColor = "font-normal text-gray-200" }}
+      {{ else if eq $baseTextColor "text-gray-900" }}
+        {{ $headingColor = "text-gray-900" }}
+        {{ $labelColor = "font-bold text-gray-900" }}
+        {{ $valueColor = "font-normal text-gray-700" }}
+      {{ else }}
+        {{ $headingColor = "text-primary-700 dark:text-primary-300" }}
+        {{ $labelColor = "font-bold text-gray-700 dark:text-gray-300" }}
+        {{ $valueColor = "font-normal text-primary-700 dark:text-primary-300" }}
+      {{ end }}
+
+      <div class="p-6 rounded-lg shadow-lg flex flex-col justify-between h-full
+        {{ if eq $cardSize "small" }}text-sm{{ else if eq $cardSize "large" }}text-lg{{ else }}text-base{{ end }}
+        {{ if $cardCssClass }}{{ $cardCssClass }}{{ else }} bg-white dark:bg-gray-800 {{ end }}
+        {{ $baseTextColor }}"
+        {{ if $cardCssClass }}style="--overlay-opacity: {{ $overlayOpacity }};"{{ end }}>
+        <div>
+          <h4 class="font-bold mb-2 {{ $headingColor }}">
+            {{ $card.title }}
+          </h4>
+          <p>
+            {{ if $card.institution }}<strong class="{{ $labelColor }}">Institution:</strong> <span class="{{ $valueColor }}">{{ $card.institution | markdownify }}</span><br>{{ end }}
+            {{ if $card.role }}<strong class="{{ $labelColor }}">Role:</strong> <span class="{{ $valueColor }}">{{ $card.role | markdownify }}</span><br>{{ end }}
+            {{ if $card.primary_instructor }}<strong class="{{ $labelColor }}">Course Lead:</strong> <span class="{{ $valueColor }}">{{ $card.primary_instructor | markdownify }}</span><br>{{ end }}
+            {{ if $card.years }}<strong class="{{ $labelColor }}">Year(s):</strong> <span class="{{ $valueColor }}">{{ $card.years | markdownify }}</span><br>{{ end }}
+            {{ if $card.students }}<strong class="{{ $labelColor }}">Students:</strong> <span class="{{ $valueColor }}">{{ $card.students | markdownify }}</span><br>{{ end }}
+            {{ if $card.description }}
+              <strong class="{{ $labelColor }}">Description:</strong> <span class="{{ $valueColor }}"><em>{{ $card.description | markdownify }}</em></span>
+            {{ end }}
+          </p>
+        </div>
+        <div class="mt-4 flex flex-wrap gap-2">
+          {{ if $card.syllabus_url }}
+            <a href="{{ $card.syllabus_url }}"
+               target="_blank"
+               rel="noopener"
+               class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-500 text-white font-medium rounded-full shadow-md transition-all text-sm no-underline"
+            >
+              Syllabus
+            </a>
+          {{ end }}
+          {{ if $card.description_url }}
+            <a href="{{ $card.description_url }}"
+               target="_blank"
+               rel="noopener"
+               class="inline-flex items-center px-4 py-2 bg-secondary-600 hover:bg-secondary-500 text-white font-medium rounded-full shadow-md transition-all text-sm no-underline"
+            >
+              Class Description
+            </a>
+          {{ end }}
+          {{ if and $card.extra_button_url $card.extra_button_text }}
+            <a href="{{ $card.extra_button_url }}"
+               target="_blank"
+               rel="noopener"
+               class="inline-flex items-center px-4 py-2 bg-secondary-600 hover:bg-secondary-500 text-white font-medium rounded-full shadow-md transition-all text-sm no-underline"
+            >
+              {{ $card.extra_button_text }}
+            </a>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</div>
