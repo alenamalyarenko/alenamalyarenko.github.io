@@ -30,7 +30,7 @@ sections:
       background:
         text_color_light: true 
         image:
-          filename: backgrounds/ice.jpeg  # File path relative to assets/media/
+          filename: backgrounds/ice.jpg  # File path relative to assets/media/
           filters:
             brightness: 0.5  # Dims image to make white text more readable
             opacity: 0.1
