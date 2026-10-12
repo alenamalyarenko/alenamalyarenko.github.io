@@ -13,3 +13,6 @@ banner:
   caption: ''
   image: ''
 ---
+
+{{< button url="/uploads/Malyarenko_CV_academic_Oct2026.pdf" text="Academic CV" icon="document-arrow-down" style="primary" align="center" rounded="full" new_tab="true" />}}
+

@@ -14,7 +14,7 @@ sections:
       text: ""
       button:
         text: "Download CV"
-        url: "uploads/MalyarenkoCV.pdf"
+        url: "uploads/Malyarenko_CV.pdf"
       headings:
         about: "About me"
         education: ""
